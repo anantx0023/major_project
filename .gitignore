@@ -1,0 +1,66 @@
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+.vscode/
+.idea/
+*.iml
+
+# ---- Logs ----
+*.log
+logs/
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ---- Env / secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- Node / frontend / backend ----
+node_modules/
+
+# common build outputs
+build/
+dist/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+
+coverage/
+.cache/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# ---- Project-specific runtime artifacts ----
+backend-service/uploads/
+yolo-service/uploads/
+
+# Model artifacts
+traffic_model.zip
+
+# YOLO weights (usually large; use Git LFS if you want to version them)
+yolo-service/yolov8n.pt
+
+.qodo/
